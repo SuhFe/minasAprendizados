@@ -3,15 +3,6 @@ body {
     margin: 0 auto;
 }
 
-.foto {
-    height: auto;
-    width: auto;
-    max-height: 100%;
-    max-width: 100%;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
 .intro-content {
     background-color:#0f0e0f;
     display: flex;
@@ -45,13 +36,10 @@ h4{
 
 .conteudo {
     /*display: flex;*/
-    margin: 0 auto; 
     color: rgb(14, 13, 13);
     background-color:rgba(50, 192, 202, 0.137);
-    display: flex;
-    align-items: center;
-    margin:10px;
-    
+    width: 341px;
+    margin: 0 0 7px 15px;
 }
 
 .descricao {
@@ -59,7 +47,17 @@ h4{
     line-height: 22px;
     color: #696868;
     font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    width: 265px;
+    background-color: #8a79cc;
+    border-radius: 3px;
+    border: 2px solid #fbfbfb;
+}
 
+.cards-container {
+    flex-wrap: wrap;
+    display: flex;
 }
 
 #contato {
@@ -93,7 +91,7 @@ h4{
 .card .right-side{
     width: 50%;
     height: 100%;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .card-trilha{
