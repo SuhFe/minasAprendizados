@@ -35,7 +35,7 @@ h4{
 .card {
     background-color: rgba(75, 40, 88, 0.062);
     display: flex;
-    border-radius: 32px;
+    border-radius: 5px;
     justify-content: center;
     align-items: inherit;
     margin: 30px;
@@ -73,6 +73,7 @@ p {
     width: 540px;
     margin: 0 0 18px 30px;
     padding: 17px;
+    border-radius: 5px;
 }
 
 .foto {
