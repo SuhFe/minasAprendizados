@@ -19,13 +19,6 @@ h1{
     text-align: center;
 }
 
-h2,h3{
-    color: #565656;
-    font-size: 15px;
-    font-family: inherit;
-    text-align: center;
-}
-
 h4{
     color: #181717;
     font-family: 'Roboto Mono', monospace;
@@ -33,59 +26,21 @@ h4{
     padding: 10px;
 }
 
-p {
-    text-align: justify; 
-}
-.conteudo {
-    /*display: flex;*/
-    color: rgb(14, 13, 13);
-    background-color:#1ba9b917;
-    width: 551px;
-    margin: 0 0 18px 30px;
-    padding: 10px;
-}
-
-.descricao {
-    font-size: 15px;
-    line-height: 20px;
-    color: #898C8B;
-    display: flex;
-    flex-wrap: wrap;
-    width: 250px;
-}
-
-.cards-container {
-    flex-wrap: wrap;
-    display: flex;
-}
-
-#contato {
-    background-color:#921b92be;
-    padding-left: 30px;
-    padding-top: 44px;
-    padding-bottom:41px;
-    padding-right:69px;
-    display: flex;
-    justify-content: space-between;
-}
-    /*text-align: center; */
-
-#contato a {
-    color: #ffffff;
-    text-decoration: none;
+.subtitle {
+    color: #181717;
+    background-color:#9a1a9e31;
+    font-size: 20px;
 }
 
 .card {
-        background-color: rgba(75, 40, 88, 0.062);
-        display: flex;
-        border-radius: 32px;
-        justify-content: center;
-        align-items: inherit;
-        margin: 30px;
-        list-style: disc;
-        text-align: initial;
+    background-color: rgba(75, 40, 88, 0.062);
+    display: flex;
+    border-radius: 32px;
+    justify-content: center;
+    align-items: inherit;
+    margin: 30px;
+    text-align: initial;
 }
-    
 
 .card .right-side{
     width: 50%;
@@ -93,16 +48,9 @@ p {
     margin-left: 10px;
 }
 
-.card-trilha{
-    background-color: rgba(75, 40, 88, 0.062);
-    margin: 60px;
+p {
+    text-align: justify; 
 }
-
-.subtitle {
-    color: #181717;
-    background-color:#9a1a9e31;
-    font-size: 20px;
-    }
 
 .title {
     color: #181717;
@@ -114,11 +62,53 @@ p {
     padding:20px;
 }
 
+.cards-container {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.conteudo {
+    color: rgb(14, 13, 13);
+    background-color:#1ba9b917;
+    width: 551px;
+    margin: 0 0 18px 30px;
+    padding: 10px;
+}
+
+.foto {
+    width: 50px;
+}
+
+.descricao {
+    font-size: 15px;
+    color: #898C8B;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#contato {
+    background-color:#921b92be;
+    padding-left: 69px;
+    padding-top: 32px;
+    padding-bottom:36px;
+    padding-right:109px;
+    display: flex;
+    justify-content: space-around;
+}
+    /*text-align: center; */
+
+#contato a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
 footer.dark {
     padding: 8px;
     margin: auto;
     background-color:black;
-    text-align:center;
+    text-align: center;
     color:white;
-    
 }
