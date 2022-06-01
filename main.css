@@ -33,12 +33,16 @@ h4{
     padding: 10px;
 }
 
+p {
+    text-align: justify; 
+}
 .conteudo {
     /*display: flex;*/
     color: rgb(14, 13, 13);
     background-color:#1ba9b917;
-    width: 601px;
-    margin: 0 0 -10px 15px;
+    width: 551px;
+    margin: 0 0 18px 30px;
+    padding: 10px;
 }
 
 .descricao {
