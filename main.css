@@ -42,12 +42,6 @@ h4{
     align-items: center;
 }
 
-.card .right-side{
-    width: 50%;
-    height: 100%;
-    margin-left: 10px;
-}
-
 p {
     text-align: justify; 
 }
