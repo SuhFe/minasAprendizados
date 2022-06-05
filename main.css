@@ -3,6 +3,10 @@ body {
     margin: 0 auto;
 }
 
+h4, .subtitle, title {
+    color: #181717;
+}
+
 .intro-content {
     background-color:#0f0e0f;
     display: flex;
@@ -20,14 +24,12 @@ h1{
 }
 
 h4{
-    color: #181717;
     font-family: 'Roboto Mono', monospace;
     height: 20px;
     padding: 10px;
 }
 
 .subtitle {
-    color: #181717;
     background-color:#9a1a9e31;
     font-size: 20px;
 }
@@ -39,7 +41,6 @@ h4{
     margin: 30px;
     flex-direction: row-reverse;
     justify-content: space-between;
-    align-items: center;
 }
 
 p {
@@ -47,7 +48,6 @@ p {
 }
 
 .title {
-    color: #181717;
     font-size: 22px;
     display: flex;
     justify-content: flex-start;
